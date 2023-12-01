@@ -541,3 +541,71 @@ position: relative;
     background-color: #31D0AA; 
 }
 
+.footer-container-subscribe {
+    margin-left: 80px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.footer-subscribe-text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.footer-subscribe-form {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-subscribe-label {
+    display: flex;
+}
+
+.footer-subscribe-input {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5; 
+    letter-spacing: 0.04em;
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background: none;
+    padding-left: 16px;
+}
+
+.footer-subscribe-button {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    background: #4D5AE5;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 165px;
+    height: 40px;
+    padding: 8px 24px;
+    border: none;
+    gap: 16px; 
+}
+
+.footer-subscribe-icon {
+    fill: #FFFFFF;
+}
+
